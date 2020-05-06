@@ -31,7 +31,9 @@
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Рассылки</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
+  <roles>Role.БазовыеПрава</roles>
   <constants>Constant.Константа1</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.УчётныеЗаписиЭП</catalogs>
@@ -39,7 +41,8 @@
   <catalogs>Catalog.Подразделения</catalogs>
   <documents>Document.ЗаявкаНаРассылку</documents>
   <documents>Document.Рассылка</documents>
-  <enums>Enum.ТипКонтактнойИнформации</enums>
-  <enums>Enum.СтатусЗаявки</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.СтатусыЗаявок</enums>
   <reports>Report.ЗаявкиВРаботе</reports>
+  <informationRegisters>InformationRegister.Очередь</informationRegisters>
 </mdclass:Configuration>

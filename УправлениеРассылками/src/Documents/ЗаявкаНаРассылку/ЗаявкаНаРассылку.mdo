@@ -86,7 +86,7 @@
       <value>Статус</value>
     </synonym>
     <type>
-      <types>EnumRef.СтатусЗаявки</types>
+      <types>EnumRef.СтатусыЗаявок</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

@@ -32,21 +32,6 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Пользователи.Form.СписокПользователей</defaultListForm>
-  <attributes uuid="65c592ba-7f94-4714-950b-ee19e098b65b">
-    <name>ИмяПользователя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя пользователя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="b32c79e3-304b-45a9-99d0-7661ba020094">
     <name>Подразделение</name>
     <synonym>

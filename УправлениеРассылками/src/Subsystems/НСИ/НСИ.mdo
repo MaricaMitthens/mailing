@@ -11,6 +11,6 @@
   <content>Catalog.УчётныеЗаписиЭП</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.Подразделения</content>
-  <content>Enum.ТипКонтактнойИнформации</content>
+  <content>Enum.ТипыКонтактнойИнформации</content>
   <content>Role.Администратор</content>
 </mdclass:Subsystem>

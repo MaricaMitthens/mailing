@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23bf22aa-d0cc-474c-9b1b-dd3a2ec384fc">
+  <producedTypes>
+    <selectionType typeId="f4e12426-1461-47fe-af68-6edb4ea14446" valueTypeId="163f6aa0-3c53-4def-ab2c-d4cac30a007b"/>
+    <listType typeId="0d29e030-51b3-49b2-8608-65a252c4aad9" valueTypeId="14ce5cb4-b452-42fb-ae09-5ac1594a653d"/>
+    <managerType typeId="ad7dfe8e-f47b-4b93-a1be-6a0450943bc4" valueTypeId="eded167f-cdf2-4f57-adb6-8403768c0677"/>
+    <recordSetType typeId="bb10f3dd-ef6e-4fa5-a5a2-69215a2c1005" valueTypeId="5cbf0141-570e-447e-aa43-a2072e3c2224"/>
+    <recordKeyType typeId="0054adfb-1b3e-4103-9c7e-b9119a9f0d4e" valueTypeId="7c70f9e9-2ebf-4dad-8321-e148aa03fc98"/>
+    <recordType typeId="c4fcfc64-9ee5-4bc2-82cd-c89045e5fb56" valueTypeId="57b24787-1112-4bb5-af0b-7802c2f98fc8"/>
+    <recordManagerType typeId="56629ca6-5b2b-49d0-b579-d723b835a5dc" valueTypeId="52824089-dcb0-4e32-9a9b-69b2d52387e1"/>
+  </producedTypes>
+  <name>Очередь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6a65f0f6-22f3-4eb1-8c2b-4ca73f605a01">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Рассылка</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <attributes uuid="8119d481-01dd-4779-a616-3da9555d7d7b">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <dimensions uuid="3930bc07-c197-41b3-92f8-1b7e66ad6cff">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

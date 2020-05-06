@@ -8,9 +8,10 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ЗаявкаНаРассылку</content>
-  <content>Enum.СтатусЗаявки</content>
+  <content>Enum.СтатусыЗаявок</content>
   <content>Catalog.УчётныеЗаписиЭП</content>
   <content>Document.Рассылка</content>
   <content>Role.Администратор</content>
   <content>Report.ЗаявкиВРаботе</content>
+  <subsystems>Транспорт</subsystems>
 </mdclass:Subsystem>

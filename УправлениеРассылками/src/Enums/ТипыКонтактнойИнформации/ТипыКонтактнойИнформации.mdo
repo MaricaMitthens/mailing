@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5ab7955-b816-4b84-89e0-b058396a6270">
+  <producedTypes>
+    <refType typeId="8c6cfda2-aad7-4379-802e-4468830320cf" valueTypeId="cd750d53-77e0-4922-a27f-ba0d41217ddc"/>
+    <listType typeId="7b0dc361-e95f-4d26-a4da-3b15a543ea82" valueTypeId="ca2ebd34-fbee-4dbf-a447-74ea82eb1141"/>
+    <managerType typeId="4f125b2c-cdbd-4eb4-849d-0600c5e22cef" valueTypeId="93407efd-70ec-4843-a8bf-c37874b4e636"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="589d6e81-34fa-4480-a5c4-1087323054d7">
+    <name>ДомашнийАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Домашний адрес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb78dad2-001b-469f-86c3-44db35072c67">
+    <name>АдресЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ЭП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ab40abd-a0ba-4680-bd58-9165f98deb8c">
+    <name>РабочийАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий адрес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7accded6-c6a2-4924-82a2-c1dfb22796e4">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="daa1b128-cb8c-479a-a84b-183602b3ef4b">
+    <name>РабочийТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий телефон</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
