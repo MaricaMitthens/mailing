@@ -12,4 +12,5 @@
   <content>Catalog.Пользователи</content>
   <content>Catalog.Подразделения</content>
   <content>Enum.ТипКонтактнойИнформации</content>
+  <content>Role.Администратор</content>
 </mdclass:Subsystem>

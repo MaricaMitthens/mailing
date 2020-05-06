@@ -9,7 +9,8 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ЗаявкаНаРассылку</content>
   <content>Enum.СтатусЗаявки</content>
-  <content>Report.ОтчётЗаявкиВРаботе</content>
   <content>Catalog.УчётныеЗаписиЭП</content>
   <content>Document.Рассылка</content>
+  <content>Role.Администратор</content>
+  <content>Report.ЗаявкиВРаботе</content>
 </mdclass:Subsystem>

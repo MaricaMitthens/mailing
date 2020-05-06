@@ -31,6 +31,7 @@
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Рассылки</subsystems>
+  <roles>Role.Администратор</roles>
   <constants>Constant.Константа1</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.УчётныеЗаписиЭП</catalogs>
@@ -40,5 +41,5 @@
   <documents>Document.Рассылка</documents>
   <enums>Enum.ТипКонтактнойИнформации</enums>
   <enums>Enum.СтатусЗаявки</enums>
-  <reports>Report.ОтчётЗаявкиВРаботе</reports>
+  <reports>Report.ЗаявкиВРаботе</reports>
 </mdclass:Configuration>
