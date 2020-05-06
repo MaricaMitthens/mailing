@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56a676bb-0a7d-478f-a8ac-014eb5dbd398">
+  <producedTypes>
+    <objectType typeId="1c0027c0-270c-4b50-880e-dc501c0ac81a" valueTypeId="9f44bd7a-a4d9-4d21-860e-5c38e156d893"/>
+    <refType typeId="e4c0e0f3-92b8-4917-9ec6-2344f4272348" valueTypeId="26b2a017-18e3-4527-b22c-9d3654119428"/>
+    <selectionType typeId="dab5f1ba-31cd-42c6-be21-6b672fe52f9c" valueTypeId="1739721c-0f0b-4acd-a4e2-a2e6bd989208"/>
+    <listType typeId="218ce923-aef2-44f1-884a-6ddeefce86a4" valueTypeId="f28faacb-fe44-497b-890c-4f58fd24346b"/>
+    <managerType typeId="45552414-5f42-48cb-962c-10ae365b3834" valueTypeId="d39067f7-768b-4192-b686-0108b358bd23"/>
+  </producedTypes>
+  <name>ЗаявкаНаРассылку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка на рассылку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаявкаНаРассылку.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаявкаНаРассылку.Form.Заявка</defaultObjectForm>
+  <defaultListForm>Document.ЗаявкаНаРассылку.Form.СписокЗаявок</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0bbdc78e-840c-42a1-b3cf-d9af14f39cea">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f372326-933b-4f44-802c-06d3fd81c26d">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6d7cb97-f895-487e-8a8b-e3cc54a3b921">
+    <name>Оправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9096b436-ac72-4529-bb7a-2e063bd68fa2">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85e67866-02f2-41da-b409-b6d0a63f2571">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусЗаявки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4054a2fd-ebfa-4022-bb74-60c8afd5e97e">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc501344-65df-4d51-b8af-34d4cd669ba2">
+    <name>СписокЗаявок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список заявок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

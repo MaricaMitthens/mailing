@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bd5eeee-2d00-49e8-b741-99061f734637">
+  <producedTypes>
+    <objectType typeId="3851a428-e6a2-42b2-befb-7bacbae4b725" valueTypeId="63b3339c-eddf-499f-8cdd-6d7de72f6289"/>
+    <refType typeId="5bb78053-1913-45e6-bdec-8462ad5e71bb" valueTypeId="473b1910-de97-4904-be2d-8374c301d3b5"/>
+    <selectionType typeId="64b965b6-24da-4e47-8eb7-cd3ce82c815a" valueTypeId="864d7bd0-86e3-4145-b9d1-a62ca0bd71d9"/>
+    <listType typeId="d07e6748-cbcc-4e90-af22-6c311955b653" valueTypeId="b9ac040a-819f-481e-9b12-a8cd7e297c1f"/>
+    <managerType typeId="bb6814b0-42d4-4588-a867-a85cf2777f9f" valueTypeId="ceed279e-0b45-42d1-ac5e-54c4c3817e7f"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="65c592ba-7f94-4714-950b-ee19e098b65b">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b32c79e3-304b-45a9-99d0-7661ba020094">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

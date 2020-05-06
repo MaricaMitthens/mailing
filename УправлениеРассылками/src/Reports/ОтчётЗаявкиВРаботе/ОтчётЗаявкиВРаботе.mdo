@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="980e5eae-2a3f-457f-9b79-2383839cbd7d">
+  <producedTypes>
+    <objectType typeId="350134e2-2a96-481f-9c59-1330150c2aa1" valueTypeId="5565b5fb-4064-43f6-80f6-ae4c98d44489"/>
+    <managerType typeId="225539ce-8b04-4dec-a8a4-4d2d82d8186a" valueTypeId="f3a6c4c5-628f-43e7-bcc4-6ac511631bfb"/>
+  </producedTypes>
+  <name>ОтчётЗаявкиВРаботе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт заявки в работе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="d30d33bb-5633-4557-bcc2-ec62338569f6">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

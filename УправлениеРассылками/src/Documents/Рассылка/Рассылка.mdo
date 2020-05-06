@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb20512c-00f5-4234-ad8c-6bdf1a1fa5e0">
+  <producedTypes>
+    <objectType typeId="0daef28d-1a3a-4675-a017-ecd848477cb8" valueTypeId="81f2e0b5-293a-4811-b347-e8528cfff3cf"/>
+    <refType typeId="2346b968-8770-4042-978a-3aded1138fa4" valueTypeId="a29de409-ca22-4728-82a6-6b595122f438"/>
+    <selectionType typeId="74413d98-97d8-42d6-a73a-7b6c87d549f0" valueTypeId="9d2423c2-c8a0-4325-b197-cfc833723337"/>
+    <listType typeId="d76a621d-3df7-400a-ad88-4f247728759e" valueTypeId="cc85fe73-99c9-496a-8ac4-155c4de0a033"/>
+    <managerType typeId="af701607-b50c-44b7-b32c-b099ee6ed358" valueTypeId="67c7895c-032f-4b48-bf25-2f90d7362d5e"/>
+  </producedTypes>
+  <name>Рассылка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Рассылка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="368f9485-4006-4a34-95a8-f1380243a7c2">
+    <name>ТемаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e34edeb-b9b4-4723-9a04-234c0d63160a">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаНаРассылку</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -29,5 +29,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Рассылки</subsystems>
   <constants>Constant.Константа1</constants>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.УчётныеЗаписиЭП</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <documents>Document.ЗаявкаНаРассылку</documents>
+  <documents>Document.Рассылка</documents>
+  <enums>Enum.ТипКонтактнойИнформации</enums>
+  <enums>Enum.СтатусЗаявки</enums>
+  <reports>Report.ОтчётЗаявкиВРаботе</reports>
 </mdclass:Configuration>

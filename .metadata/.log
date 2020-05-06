@@ -1,0 +1,21 @@
+!SESSION 2020-05-06 13:14:42.721 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5-BellSoft
+java.vendor=BellSoft
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2020-05-06 13:15:00.226
+!MESSAGE java.vm.name=OpenJDK 64-Bit Client VM
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2020-05-06 13:15:00.226
+!MESSAGE java.vm.info=mixed mode
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 2 0 2020-05-06 13:15:02.946
+!MESSAGE Не удалось прочитать конфигурационный файл "C:\ProgramData\Application Data\1C\1CEStart\1cestart.cfg". Информационные базы из данного конфигурационного файла будут проигнорированы.
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 2 0 2020-05-06 13:15:02.956
+!MESSAGE Не удалось прочитать конфигурационный файл "C:\Users\bazhe\AppData\Roaming\1C\1CEStart\1cestart.cfg". Информационные базы из данного конфигурационного файла будут проигнорированы.
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2020-05-06 13:15:11.586
+!MESSAGE EDT закрывается

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a498818-32a9-433c-b097-1c64b77b8397">
+  <producedTypes>
+    <objectType typeId="d29fb443-72da-4bd9-a701-c37d5020f3b3" valueTypeId="df68d8e1-7015-4d22-8ef7-8d5748bbb1c6"/>
+    <refType typeId="d94c5bbf-5cd1-4953-8f14-61528ffa7358" valueTypeId="40af78c2-7fcb-4a1e-a385-d15a2f6232d9"/>
+    <selectionType typeId="51b107e9-4ea0-49bc-9e54-d25a4136deca" valueTypeId="91c3676f-7bd2-457a-b56a-d088eaba838e"/>
+    <listType typeId="1b016b6f-a92a-4398-9f75-dbf1db0434d9" valueTypeId="14b51b0a-cd5e-4156-a442-d4bc2089206a"/>
+    <managerType typeId="2bcc7d8a-30c5-4f44-b2e7-2a8bb2ee4d76" valueTypeId="afcdb1d7-54b0-4826-b031-44313b49c854"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Контрагенты.Form.Контрагенты</defaultListForm>
+  <attributes uuid="8a0df991-9371-4169-92f4-2491dddd1b58">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="857796d8-06f7-4c20-9266-d3e130a0aaa5">
+    <producedTypes>
+      <objectType typeId="76f01e9e-f172-426e-ac91-be32e20bbc30" valueTypeId="c099a972-f28d-4333-830d-1d40cb44f733"/>
+      <rowType typeId="2381ecc1-4e8f-4bb1-8ce7-94573ac7609a" valueTypeId="53059fb7-003b-43b7-a52f-be3f86ee55e2"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </synonym>
+    <attributes uuid="38cb9697-3c1f-4dec-a301-236bb4c9128e">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипКонтактнойИнформации</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="569628e5-4c1b-4a68-818b-9826ad157dca">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="dd5f164e-a5e8-4f56-b194-11bcc7a7009d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7d8e526-7bb8-4f07-93bf-06d75ca4add5">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

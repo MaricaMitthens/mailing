@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e600907-9c72-4d57-8a32-d894483ea53d">
+  <name>Рассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаявкаНаРассылку</content>
+  <content>Enum.СтатусЗаявки</content>
+  <content>Report.ОтчётЗаявкиВРаботе</content>
+  <content>Catalog.УчётныеЗаписиЭП</content>
+  <content>Document.Рассылка</content>
+</mdclass:Subsystem>

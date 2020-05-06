@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2992445e-709f-4579-9551-e895d594eed3">
+  <producedTypes>
+    <objectType typeId="86b0fd25-95e0-4f5c-9df8-981e1c863243" valueTypeId="adacec8a-61fb-40dd-86c8-83ae3de6e041"/>
+    <refType typeId="18140631-b05d-4fff-914e-aef36c2c4136" valueTypeId="0b60c7c1-0775-4a4e-8871-68117e97a3ac"/>
+    <selectionType typeId="0fdf1b68-bd33-412e-ad61-bbbb99b7fcc4" valueTypeId="e726fa6f-4daf-4b43-babe-c49148b05c83"/>
+    <listType typeId="5f9298f5-207d-4cd0-a8c1-8783beb3bdd7" valueTypeId="a6b6984d-09e3-4a3c-88ae-cc9f8eb359d6"/>
+    <managerType typeId="0a63a409-e0dc-472e-96b9-bb2b0b690455" valueTypeId="67075c8d-4368-4bce-8b2d-821a77d03dc7"/>
+  </producedTypes>
+  <name>УчётныеЗаписиЭП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учётные записи ЭП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчётныеЗаписиЭП.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УчётныеЗаписиЭП.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчётныеЗаписиЭП.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УчётныеЗаписиЭП.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="72821102-d541-4543-8f5f-b008aafa5a64">
+    <name>АдресЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ЭП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4660b208-d40a-43e2-8da5-db3f4c5f344a">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40fba3de-a700-413e-97dd-25b47277d365">
+    <name>СерверSMTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер SMTP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb3cfc15-4553-49c8-997c-1bb4234a12aa">
+    <name>СерверIMAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер IMAP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d72b1786-0f0e-4f23-b178-85681da3850d">
+    <name>ПортSMTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт SMTP</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4355044e-c448-4ab3-82ec-46a67ec14e66">
+    <name>ПортIMAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт IMAP</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5faddbfd-58f2-41af-bef1-ca9cb1eaf0de">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="816f8276-10eb-4ea2-81c1-7e90d072b64d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
