@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7677f33-eb65-418d-9f71-dd2fdbad461e">
+  <producedTypes>
+    <objectType typeId="f9d9f42a-2882-45e7-b362-c8a3c880bc4b" valueTypeId="b6712ddc-2791-45e8-8142-62532cef65ff"/>
+    <refType typeId="18f89b84-1d80-4b45-bf38-02b86958d80e" valueTypeId="d5e667b7-6f70-41e6-83dc-64a44f8731cc"/>
+    <selectionType typeId="91c03b55-0e6c-45df-a974-f5cb9fc3b9fb" valueTypeId="5df11d1e-f855-45c4-a858-38e645430369"/>
+    <listType typeId="17ec2277-c414-4734-b4e1-40c0d3bd07b5" valueTypeId="626e9d20-ee15-4725-a4cc-f0599627550c"/>
+    <managerType typeId="7ef926ad-48c1-4f7e-867f-7bf9d55d84cd" valueTypeId="612b8ddb-8144-4aaf-8db2-9c14db5de408"/>
+  </producedTypes>
+  <name>СегментыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СегментыКонтрагентов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СегментыКонтрагентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="6ab81886-e4a8-4463-986d-ee19919f9d3f">
+    <producedTypes>
+      <objectType typeId="93ec4dbc-ae69-4377-b5b7-ba805893ec4f" valueTypeId="f16413a4-c7cc-443c-8589-1b881ea7e906"/>
+      <rowType typeId="37df9c46-2664-4966-8cfa-176e901e44b3" valueTypeId="620a299a-40fb-4f66-baa5-f677ad0f3fcc"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <attributes uuid="9b64dd05-7d91-475d-9835-1a7be5e29cf8">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

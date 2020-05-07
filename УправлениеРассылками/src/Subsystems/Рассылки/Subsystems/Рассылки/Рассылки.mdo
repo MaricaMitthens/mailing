@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a8d6f9-0eaf-41e8-8c6e-1184d670cfdc">
+  <name>Рассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Рассылка</content>
+  <content>Report.ОтчетОбОшибках</content>
+  <parentSubsystem>Subsystem.Рассылки</parentSubsystem>
+</mdclass:Subsystem>

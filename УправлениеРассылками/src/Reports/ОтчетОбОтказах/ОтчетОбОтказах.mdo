@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f76dda6-44b6-469f-a5ae-2621ae3d1127">
+  <producedTypes>
+    <objectType typeId="16e10142-0bb3-491d-914b-4d309ccd968e" valueTypeId="210e7ee9-17f1-42eb-b06b-4930609e2040"/>
+    <managerType typeId="3888e53d-42b6-46f3-926a-46608a422f7f" valueTypeId="cdcace86-478d-4d68-b5c3-1985d727bb4c"/>
+  </producedTypes>
+  <name>ОтчетОбОтказах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет об отказах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетОбОтказах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="de7dac94-2272-4b4f-a40e-cbfadef63f7f">
+    <name>отч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отч</value>
+    </synonym>
+    <type>
+      <types>InformationRegisterRecordSet.ПротоколОтправки</types>
+    </type>
+  </attributes>
+  <templates uuid="b891ee15-1140-44ce-a2c0-7952216d4a30">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

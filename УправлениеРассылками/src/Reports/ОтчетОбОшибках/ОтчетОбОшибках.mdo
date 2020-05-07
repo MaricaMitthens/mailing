@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3009c370-307f-4f45-a59f-f56da483a6b1">
+  <producedTypes>
+    <objectType typeId="d1315159-c71c-4e70-b1d4-9aeef67459c6" valueTypeId="df2c8d79-d729-4a1b-9f03-a23c051ddcb9"/>
+    <managerType typeId="29c8ec89-09c1-4f7d-a82e-e1785e39e92e" valueTypeId="04ba4e59-9140-4598-a93a-af5b3151cb24"/>
+  </producedTypes>
+  <name>ОтчетОбОшибках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет об ошибках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетОбОшибках.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c4be222e-ac82-4890-aa56-b31ecd435c5b">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>InformationRegisterRecordSet.ПротоколОтправки</types>
+    </type>
+  </attributes>
+  <templates uuid="16ec267a-6523-44b4-bb1d-4f3a7dbd8d21">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

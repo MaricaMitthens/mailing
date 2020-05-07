@@ -16,14 +16,14 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="6a65f0f6-22f3-4eb1-8c2b-4ca73f605a01">
-    <name>Рассылка</name>
+  <resources uuid="45d2a9ab-dab8-44c7-a572-19028b9f18cd">
+    <name>УчетнаяЗаписьЭП</name>
     <synonym>
       <key>ru</key>
-      <value>Рассылка</value>
+      <value>Учетная запись ЭП</value>
     </synonym>
     <type>
-      <types>DocumentRef.Рассылка</types>
+      <types>CatalogRef.УчётныеЗаписиЭП</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -41,6 +41,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <dimensions uuid="641cc6e9-3003-422f-a252-7eb10a705952">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Рассылка</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="3930bc07-c197-41b3-92f8-1b7e66ad6cff">
     <name>Контрагент</name>
     <synonym>

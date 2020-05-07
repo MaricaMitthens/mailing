@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dea1f323-173a-413f-a204-0b24fb171f80">
+  <producedTypes>
+    <objectType typeId="7a1840af-fec1-45e3-baae-6e3eda736bab" valueTypeId="81fa3bb2-ee9e-4842-8f31-ad3a33968c52"/>
+    <refType typeId="eadb6b04-214b-44a5-9c99-d53b41dec452" valueTypeId="9602c803-6289-4543-844a-7de1d0384976"/>
+    <selectionType typeId="edd1a2fa-0911-4b2a-81ce-863888e7a143" valueTypeId="416d0db8-805e-474f-8b39-a34e503b74e6"/>
+    <listType typeId="34d3815c-41af-4757-a050-fbf9c81a9773" valueTypeId="ccf6bbf0-d7b5-4c9c-8089-3c5eefd8c2c9"/>
+    <managerType typeId="5acf97b3-46e5-4376-92eb-26df4991fae7" valueTypeId="5eecd12c-9773-4709-a215-26625b2920b1"/>
+  </producedTypes>
+  <name>ШаблоныПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны писем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныПисем.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ШаблоныПисем.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1230fc4f-d115-4bec-b57c-fa1ce939c328">
+    <name>ТемаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e43a752-24c1-4fd2-9dfe-13e72c06edeb">
+    <name>ТекстПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ed2cc0b-bfd1-4e65-b8a3-787b230c6a3d">
+    <name>Подпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

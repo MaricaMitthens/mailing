@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e600907-9c72-4d57-8a32-d894483ea53d">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3903af3-bdfa-4e48-abf4-d64814d3c2ef">
   <name>Рассылки</name>
   <synonym>
     <key>ru</key>
@@ -7,11 +7,11 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ЗаявкаНаРассылку</content>
-  <content>Enum.СтатусыЗаявок</content>
-  <content>Catalog.УчётныеЗаписиЭП</content>
-  <content>Document.Рассылка</content>
+  <content>Report.ОтчетОбОшибках</content>
   <content>Role.Администратор</content>
-  <content>Report.ЗаявкиВРаботе</content>
+  <content>Report.ОтчетОбОтказах</content>
+  <subsystems>Заявки</subsystems>
+  <subsystems>Рассылки</subsystems>
   <subsystems>Транспорт</subsystems>
+  <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>
