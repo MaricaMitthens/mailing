@@ -43,11 +43,13 @@
   <catalogs>Catalog.ШаблоныПисем</catalogs>
   <documents>Document.ЗаявкаНаРассылку</documents>
   <documents>Document.Рассылка</documents>
+  <documents>Document.Отправка</documents>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.СтатусыЗаявок</enums>
   <reports>Report.ОтчетОбОшибках</reports>
   <reports>Report.ЗаявкиВРаботе</reports>
   <reports>Report.ОтчетОбОтказах</reports>
+  <dataProcessors>DataProcessor.ОтправкаПочты</dataProcessors>
   <informationRegisters>InformationRegister.Очередь</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколОтправки</informationRegisters>
 </mdclass:Configuration>

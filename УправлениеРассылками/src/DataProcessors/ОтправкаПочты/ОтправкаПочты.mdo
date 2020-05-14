@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71eb0991-dd2b-4253-ba03-a4fdcf92e7f7">
+  <producedTypes>
+    <objectType typeId="fc274877-5a85-4a4d-b4e6-197fb71e4354" valueTypeId="14767305-52f6-4798-85d0-3a97f02842a3"/>
+    <managerType typeId="394e310a-2b5a-4366-a804-903720290fb1" valueTypeId="6daa928c-4c0b-45d9-82bd-b49f3d01a3e4"/>
+  </producedTypes>
+  <name>ОтправкаПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка почты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОтправкаПочты.Form.Форма</defaultForm>
+  <forms uuid="4ab67478-1ead-4d68-8245-d54a6dcf6596">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
