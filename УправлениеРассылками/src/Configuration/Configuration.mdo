@@ -34,6 +34,7 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.БазовыеПрава</roles>
+  <roles>Role.СозданиеИзменениеЗаявок</roles>
   <constants>Constant.Константа1</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.УчётныеЗаписиЭП</catalogs>
@@ -50,6 +51,7 @@
   <reports>Report.ЗаявкиВРаботе</reports>
   <reports>Report.ОтчетОбОтказах</reports>
   <dataProcessors>DataProcessor.ОтправкаПочты</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкаНеДоставленных</dataProcessors>
   <informationRegisters>InformationRegister.Очередь</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколОтправки</informationRegisters>
 </mdclass:Configuration>

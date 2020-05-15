@@ -15,6 +15,7 @@
     <value>Очередь</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="45d2a9ab-dab8-44c7-a572-19028b9f18cd">
     <name>УчетнаяЗаписьЭП</name>
