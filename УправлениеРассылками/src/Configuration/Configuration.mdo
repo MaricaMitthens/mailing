@@ -35,6 +35,8 @@
   <roles>Role.Администратор</roles>
   <roles>Role.БазовыеПрава</roles>
   <roles>Role.СозданиеИзменениеЗаявок</roles>
+  <commonModules>CommonModule.Рассылка</commonModules>
+  <scheduledJobs>ScheduledJob.Рассылка</scheduledJobs>
   <constants>Constant.Константа1</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.УчётныеЗаписиЭП</catalogs>
@@ -54,4 +56,5 @@
   <dataProcessors>DataProcessor.ОбработкаНеДоставленных</dataProcessors>
   <informationRegisters>InformationRegister.Очередь</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколОтправки</informationRegisters>
+  <informationRegisters>InformationRegister.Очередь1</informationRegisters>
 </mdclass:Configuration>

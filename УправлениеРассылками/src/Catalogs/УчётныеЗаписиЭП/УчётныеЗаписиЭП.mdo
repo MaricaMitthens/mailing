@@ -30,8 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.УчётныеЗаписиЭП.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.УчётныеЗаписиЭП.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Catalog.УчётныеЗаписиЭП.Form.ФормаЭлементаУчетнаяЗаписьЭП</defaultObjectForm>
   <attributes uuid="72821102-d541-4543-8f5f-b008aafa5a64">
     <name>АдресЭП</name>
     <synonym>
@@ -71,7 +70,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>100</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
@@ -86,7 +85,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>100</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
@@ -124,20 +123,41 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="5faddbfd-58f2-41af-bef1-ca9cb1eaf0de">
-    <name>ФормаЭлемента</name>
+  <attributes uuid="65dc7344-14c5-4b16-a81d-861328810283">
+    <name>СерверPOP3</name>
     <synonym>
       <key>ru</key>
-      <value>Форма элемента</value>
+      <value>Сервер POP3</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="816f8276-10eb-4ea2-81c1-7e90d072b64d">
-    <name>ФормаСписка</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67b8494e-1a81-4d72-8d50-81091e48080e">
+    <name>ПортPOP3</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>Порт POP3</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1537a06f-8f8a-4399-885e-04f3c9c571a0">
+    <name>ФормаЭлементаУчетнаяЗаписьЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента учетная запись ЭП</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

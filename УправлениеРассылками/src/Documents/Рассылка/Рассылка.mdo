@@ -24,7 +24,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <registerRecords>InformationRegister.Очередь</registerRecords>
+  <defaultObjectForm>Document.Рассылка.Form.ФормаДокументаРассылка</defaultObjectForm>
+  <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="368f9485-4006-4a34-95a8-f1380243a7c2">
@@ -81,4 +82,37 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="bf3ca96a-1445-4a63-a580-b265514e0364">
+    <name>Получатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатели</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыКонтрагентов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a10fd7f5-3d51-4966-bf70-71768520765d">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчётныеЗаписиЭП</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="35f10060-7103-45eb-b4dd-75c5c4aab43d">
+    <name>ФормаДокументаРассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа рассылка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

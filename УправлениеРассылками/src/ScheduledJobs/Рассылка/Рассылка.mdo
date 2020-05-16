@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26bc6c12-49fe-48a1-8b1a-e6ede67bb278">
+  <name>Рассылка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка</value>
+  </synonym>
+  <methodName>CommonModule.Рассылка.ОтправкаПисемИзОчереди</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>25</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

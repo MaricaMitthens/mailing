@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95c78d26-b02b-4137-808e-2b7c04b487ca">
+  <producedTypes>
+    <selectionType typeId="bc90a6db-4a38-49d7-8605-a33cc80af9a4" valueTypeId="c48b4d82-2165-4460-8ed9-97de104d11ec"/>
+    <listType typeId="3584f8e2-a4d5-4820-84c1-02b9ae9a9884" valueTypeId="a29fd660-efd0-4fb7-b2d0-679c217c6f79"/>
+    <managerType typeId="58647c2a-2233-48f7-8a68-fd5445ba4545" valueTypeId="37619966-6329-4c0d-a98b-accaa45cba64"/>
+    <recordSetType typeId="bd0e9edf-5440-420d-97c0-7c2b2e134b20" valueTypeId="7a7e8074-c74a-4ff5-bcc0-8106c36ec487"/>
+    <recordKeyType typeId="f903bf75-c421-4f2e-b381-c2afae194eb1" valueTypeId="98fa5ddb-e38f-4f59-be73-99358868dbac"/>
+    <recordType typeId="5961834e-d926-4260-8b9a-c4a32e393f5d" valueTypeId="ee6f9cdc-8478-41c3-81fa-900bc6f3c07c"/>
+    <recordManagerType typeId="e44c24e8-2d1c-4ec9-a3e2-08775c240e7f" valueTypeId="a921c33a-359e-4d38-a50b-cba7729e0f13"/>
+  </producedTypes>
+  <name>Очередь1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="61885974-6362-4ea9-9f90-c36cc062f933">
+    <name>УчетнаяЗаписьЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись ЭП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчётныеЗаписиЭП</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <attributes uuid="ece248bc-4597-4049-887e-406a43848528">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <dimensions uuid="d27c846a-9554-4ea4-a601-2a313f8902e1">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Рассылка</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="01521755-7bcf-4bd7-81a9-f7e9b75856e6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -52,7 +52,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Код</name>
+      <name>Рассылка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -60,11 +60,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Код</segments>
+        <segments>Список.Рассылка</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>КодРасширеннаяПодсказка</name>
+        <name>РассылкаРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -79,7 +79,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КодКонтекстноеМеню</name>
+        <name>РассылкаКонтекстноеМеню</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -99,7 +99,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Наименование</name>
+      <name>Контрагент</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -107,10 +107,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Наименование</segments>
+        <segments>Список.Контрагент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеРасширеннаяПодсказка</name>
+        <name>КонтрагентРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -125,7 +125,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НаименованиеКонтекстноеМеню</name>
+        <name>КонтрагентКонтекстноеМеню</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -145,7 +145,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>АдресЭП</name>
+      <name>УчетнаяЗаписьЭП</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -153,10 +153,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.АдресЭП</segments>
+        <segments>Список.УчетнаяЗаписьЭП</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АдресЭПРасширеннаяПодсказка</name>
+        <name>УчетнаяЗаписьЭПРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -171,7 +171,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>АдресЭПКонтекстноеМеню</name>
+        <name>УчетнаяЗаписьЭПКонтекстноеМеню</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -191,7 +191,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Пароль</name>
+      <name>ДатаОтправки</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -199,10 +199,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Пароль</segments>
+        <segments>Список.ДатаОтправки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПарольРасширеннаяПодсказка</name>
+        <name>ДатаОтправкиРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -217,192 +217,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПарольКонтекстноеМеню</name>
+        <name>ДатаОтправкиКонтекстноеМеню</name>
         <id>26</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>СерверSMTP</name>
-      <id>28</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.СерверSMTP</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СерверSMTPРасширеннаяПодсказка</name>
-        <id>30</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СерверSMTPКонтекстноеМеню</name>
-        <id>29</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>СерверIMAP</name>
-      <id>31</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.СерверIMAP</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СерверIMAPРасширеннаяПодсказка</name>
-        <id>33</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СерверIMAPКонтекстноеМеню</name>
-        <id>32</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ПортSMTP</name>
-      <id>34</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ПортSMTP</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ПортSMTPРасширеннаяПодсказка</name>
-        <id>36</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ПортSMTPКонтекстноеМеню</name>
-        <id>35</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ПортIMAP</name>
-      <id>37</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ПортIMAP</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ПортIMAPРасширеннаяПодсказка</name>
-        <id>39</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ПортIMAPКонтекстноеМеню</name>
-        <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -637,7 +453,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>Catalog.УчётныеЗаписиЭП</mainTable>
+      <mainTable>InformationRegister.Очередь</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

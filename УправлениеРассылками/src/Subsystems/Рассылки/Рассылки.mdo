@@ -12,6 +12,7 @@
   <content>Report.ОтчетОбОтказах</content>
   <content>DataProcessor.ОтправкаПочты</content>
   <content>DataProcessor.ОбработкаНеДоставленных</content>
+  <content>InformationRegister.Очередь</content>
   <subsystems>Заявки</subsystems>
   <subsystems>Рассылки</subsystems>
   <subsystems>Транспорт</subsystems>

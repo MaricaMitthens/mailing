@@ -15,7 +15,7 @@
     <value>Очередь</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <writeMode>RecorderSubordinate</writeMode>
+  <defaultListForm>InformationRegister.Очередь.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="45d2a9ab-dab8-44c7-a572-19028b9f18cd">
     <name>УчетнаяЗаписьЭП</name>
@@ -29,15 +29,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </resources>
-  <attributes uuid="8119d481-01dd-4779-a616-3da9555d7d7b">
-    <name>Реквизит</name>
+  <attributes uuid="a7e208ab-7a75-4465-99f1-3b56615921c0">
+    <name>ДатаОтправки</name>
     <synonym>
       <key>ru</key>
-      <value>Реквизит</value>
+      <value>Дата отправки</value>
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -68,4 +70,13 @@
     <dataHistory>Use</dataHistory>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="320cdf47-1370-48de-9033-dabf5afdeb39">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
