@@ -52,7 +52,6 @@
     <type>
       <types>DocumentRef.ЗаявкаНаРассылку</types>
     </type>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -65,7 +64,6 @@
     <type>
       <types>CatalogRef.ШаблоныПисем</types>
     </type>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -81,7 +79,6 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -94,7 +91,6 @@
     <type>
       <types>CatalogRef.СегментыКонтрагентов</types>
     </type>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -107,7 +103,6 @@
     <type>
       <types>CatalogRef.УчётныеЗаписиЭП</types>
     </type>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

@@ -34,10 +34,10 @@
   <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Контрагенты.Form.Контрагенты</defaultListForm>
   <attributes uuid="8a0df991-9371-4169-92f4-2491dddd1b58">
-    <name>Фамилия</name>
+    <name>ФИО</name>
     <synonym>
       <key>ru</key>
-      <value>Фамилия</value>
+      <value>ФИО</value>
     </synonym>
     <type>
       <types>String</types>
@@ -46,36 +46,6 @@
       </stringQualifiers>
     </type>
     <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5e46b28d-1613-4577-9158-42bff54a57bb">
-    <name>Имя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="aff29abd-e916-4fdb-987f-65bae29bb69c">
-    <name>Отчество</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отчество</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -111,7 +81,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>100</length>
+          <length>10</length>
         </stringQualifiers>
       </type>
       <dataHistory>Use</dataHistory>
@@ -124,11 +94,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

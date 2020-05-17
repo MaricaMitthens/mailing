@@ -54,7 +54,6 @@
   <reports>Report.ОтчетОбОтказах</reports>
   <dataProcessors>DataProcessor.ОтправкаПочты</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаНеДоставленных</dataProcessors>
-  <dataProcessors>DataProcessor.Обр1</dataProcessors>
   <informationRegisters>InformationRegister.Очередь</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколОтправки</informationRegisters>
   <informationRegisters>InformationRegister.Очередь1</informationRegisters>
