@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e44387c9-72a9-40d1-a14c-6edde52c2929">
+  <producedTypes>
+    <objectType typeId="2d192eba-6b2c-45a8-bca3-6bee5df9ff37" valueTypeId="a0b87d04-ed15-4c56-8391-551a4c91d880"/>
+    <managerType typeId="636aa8fe-52a5-43e2-9d2a-1ebd5ddbea64" valueTypeId="d4f24127-d664-4a5c-beae-914bee1cc6d2"/>
+  </producedTypes>
+  <name>ОбработкаОшибокИОтказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка ошибок и отказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаОшибокИОтказов.Form.ФормаОшибкиИОтказы</defaultForm>
+  <forms uuid="8e5b2b98-acd9-4270-8168-877dd9259873">
+    <name>ФормаОшибкиИОтказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ошибки и отказы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

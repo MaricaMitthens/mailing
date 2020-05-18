@@ -15,6 +15,7 @@
   <content>InformationRegister.Очередь</content>
   <content>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</content>
   <content>InformationRegister.ПротоколОтправки</content>
+  <content>DataProcessor.ОбработкаОшибокИОтказов</content>
   <subsystems>Заявки</subsystems>
   <subsystems>Рассылки</subsystems>
   <subsystems>Транспорт</subsystems>

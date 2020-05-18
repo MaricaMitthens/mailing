@@ -85,4 +85,20 @@
     <dataHistory>Use</dataHistory>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="0f87c07a-de40-41a2-9a78-b7d00b34ec18">
+    <name>АдресЭПКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ЭПКонтрагента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
 </mdclass:InformationRegister>
