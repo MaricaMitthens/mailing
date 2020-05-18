@@ -4,13 +4,13 @@
     <objectType typeId="60d81515-3449-4400-a3b4-0e921741ad83" valueTypeId="b52d9475-a47a-44f2-857b-d6abe083dd2b"/>
     <managerType typeId="846f8ac8-2888-4b7d-83b4-531eacb264bb" valueTypeId="6e82fa93-2902-4994-b173-9f1fa067e523"/>
   </producedTypes>
-  <name>Обр1</name>
+  <name>ОтправитьПисьмаИзОчередиИПротокол</name>
   <synonym>
     <key>ru</key>
-    <value>Обр1</value>
+    <value>Отправить письма из очереди и протокол</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.Обр1.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол.Form.Форма</defaultForm>
   <forms uuid="c09a7c5b-d890-4605-b31e-fdb7644616ce">
     <name>Форма</name>
     <synonym>

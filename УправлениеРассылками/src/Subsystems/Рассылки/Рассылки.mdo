@@ -13,7 +13,7 @@
   <content>DataProcessor.ОтправкаПочты</content>
   <content>DataProcessor.ОбработкаНеДоставленных</content>
   <content>InformationRegister.Очередь</content>
-  <content>DataProcessor.Обр1</content>
+  <content>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</content>
   <content>InformationRegister.ПротоколОтправки</content>
   <subsystems>Заявки</subsystems>
   <subsystems>Рассылки</subsystems>

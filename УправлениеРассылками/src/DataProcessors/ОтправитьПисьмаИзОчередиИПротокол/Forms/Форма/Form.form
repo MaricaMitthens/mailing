@@ -54,7 +54,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.Обр1</types>
+      <types>DataProcessorObject.ОтправитьПисьмаИзОчередиИПротокол</types>
     </valueType>
     <view>
       <common>true</common>
