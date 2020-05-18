@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daeda4a6-e5ce-4ec0-811e-a00b7819db53">
+  <producedTypes>
+    <refType typeId="ce34be2c-4644-41e6-bd85-d4b75e31c933" valueTypeId="4749371f-fe4b-42d9-ae96-729fb95cf544"/>
+    <listType typeId="c73cdd91-adaf-4911-a186-6ea77f9dea0b" valueTypeId="cee5b90e-5527-4f83-b56e-d99866081857"/>
+    <managerType typeId="1ed13bba-8df6-42c0-95e6-ae2ed073bd02" valueTypeId="e3628fb1-8555-43ab-b8ab-37722f9c3dc7"/>
+  </producedTypes>
+  <name>СтатусыОтправкиПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы отправки письма</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cabaf9d2-df8d-4b5a-a2c7-9a56e901ae6b">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fcebd4e3-9ab8-49ba-a08d-6daf4baf74ec">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

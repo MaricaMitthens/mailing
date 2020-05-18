@@ -49,6 +49,7 @@
   <documents>Document.Отправка</documents>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.СтатусыЗаявок</enums>
+  <enums>Enum.СтатусыОтправкиПисьма</enums>
   <reports>Report.ОтчетОбОшибках</reports>
   <reports>Report.ЗаявкиВРаботе</reports>
   <reports>Report.ОтчетОбОтказах</reports>

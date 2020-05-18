@@ -43,6 +43,7 @@
         <length>100</length>
       </stringQualifiers>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -58,6 +59,7 @@
         <length>50</length>
       </stringQualifiers>
     </type>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -149,6 +151,21 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2a7f4be-b62d-4274-8ad8-6edeed645a72">
+    <name>ИмяПриОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя при отправке</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

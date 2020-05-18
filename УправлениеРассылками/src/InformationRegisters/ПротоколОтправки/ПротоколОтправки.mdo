@@ -17,10 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="12093b22-5294-448e-8ff4-3ddf15f5d990">
-    <name>Результат</name>
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Результат</value>
+      <value>Статус</value>
     </synonym>
     <type>
       <types>String</types>
@@ -31,6 +31,34 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </resources>
+  <resources uuid="50bffdca-4f4c-4728-a853-c71934c2bdee">
+    <name>ДопРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <attributes uuid="58d1f3e5-9969-4a18-856e-8a08bec94e68">
+    <name>ДатаИВремяОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <dimensions uuid="eac6b00e-e098-4b70-a600-985fcc891df2">
     <name>Контрагент</name>
     <synonym>
