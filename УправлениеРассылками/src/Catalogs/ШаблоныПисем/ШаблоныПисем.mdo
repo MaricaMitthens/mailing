@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШаблоныПисем.Form.ФормаЭлементаШаблон</defaultObjectForm>
   <attributes uuid="1230fc4f-d115-4bec-b57c-fa1ce939c328">
     <name>ТемаПисьма</name>
     <synonym>
@@ -73,4 +74,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="f5fc3f5b-10eb-4820-8127-c9720479805c">
+    <name>ФормаЭлементаШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента шаблон</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
