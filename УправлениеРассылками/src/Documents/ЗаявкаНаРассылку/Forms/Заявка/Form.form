@@ -209,7 +209,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Оправитель</segments>
+      <segments>Объект.Отправитель</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОправительРасширеннаяПодсказка</name>

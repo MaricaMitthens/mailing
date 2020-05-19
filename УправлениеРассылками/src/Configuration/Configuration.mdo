@@ -46,13 +46,12 @@
   <catalogs>Catalog.ШаблоныПисем</catalogs>
   <documents>Document.ЗаявкаНаРассылку</documents>
   <documents>Document.Рассылка</documents>
-  <documents>Document.Отправка</documents>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.СтатусыЗаявок</enums>
   <enums>Enum.СтатусыОтправкиПисьма</enums>
-  <reports>Report.ОтчетОбОшибках</reports>
   <reports>Report.ЗаявкиВРаботе</reports>
   <reports>Report.ОтчетОбОтказах</reports>
+  <reports>Report.ОтчетОбОшибках</reports>
   <dataProcessors>DataProcessor.ОтправкаПочты</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаНеДоставленных</dataProcessors>
   <dataProcessors>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</dataProcessors>

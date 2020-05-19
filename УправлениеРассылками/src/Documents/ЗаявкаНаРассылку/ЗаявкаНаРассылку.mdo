@@ -55,10 +55,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c6d7cb97-f895-487e-8a8b-e3cc54a3b921">
-    <name>Оправитель</name>
+    <name>Отправитель</name>
     <synonym>
       <key>ru</key>
-      <value>Оправитель</value>
+      <value>Отправитель</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
