@@ -57,6 +57,8 @@
   <dataProcessors>DataProcessor.ОбработкаНеДоставленных</dataProcessors>
   <dataProcessors>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаОшибокИОтказов</dataProcessors>
+  <dataProcessors>DataProcessor.ПроверкаРегулярок</dataProcessors>
+  <dataProcessors>DataProcessor.ПроверкаОтписки</dataProcessors>
   <informationRegisters>InformationRegister.Очередь</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколОтправки</informationRegisters>
   <informationRegisters>InformationRegister.Очередь1</informationRegisters>
