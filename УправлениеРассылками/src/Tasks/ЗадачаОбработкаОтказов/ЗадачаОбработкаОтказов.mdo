@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9481b350-456e-4654-8bc0-034ab5141cfb">
+  <producedTypes>
+    <objectType typeId="eae18358-0a22-40ec-97f9-f60a2d0cec50" valueTypeId="9f5733d5-238a-4077-9b4d-3480f7db8f88"/>
+    <refType typeId="93b3c76e-933b-4f7b-881e-b97ea70d84df" valueTypeId="8a3f6544-c20c-4891-a96c-04099d87bc6a"/>
+    <selectionType typeId="92ae2c33-1e2b-4d93-bf06-8e80a47a5b9c" valueTypeId="4aa78089-6a2b-4353-a181-2b0444ee016f"/>
+    <listType typeId="9aac16cc-49b4-499c-9faf-1280e9b7ce52" valueTypeId="65d08ceb-91aa-459e-b433-0b9ad83c4ac7"/>
+    <managerType typeId="fb34b99e-0303-4694-a4f0-bc955d201bf0" valueTypeId="40f835d9-274b-4cf7-87ff-a3927ced5d5a"/>
+  </producedTypes>
+  <name>ЗадачаОбработкаОтказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача обработка отказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаОбработкаОтказов.StandardAttribute.Number</inputByString>
+  <inputByString>Task.ЗадачаОбработкаОтказов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>50</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <attributes uuid="a62e243d-07fe-498b-8339-bcf2c692dfad">
+    <name>Рассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Рассылка</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10fc309f-5c6f-463f-9e8f-67b3cb02fcd7">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13d86901-029c-47e2-a1d7-42061ee95860">
+    <name>СегментКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент контрагентов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыКонтрагентов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Task>
