@@ -35,10 +35,7 @@
       <value>Доп результат</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>EnumRef.ДопСтатусыРассылки</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

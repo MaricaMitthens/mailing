@@ -18,6 +18,8 @@
   <content>DataProcessor.ПроверкаОтписки</content>
   <content>Report.ЗаявкиВРаботе</content>
   <content>Report.ОтчётОбОшибках</content>
+  <content>Report.ОтчётОбОтказах</content>
+  <content>Report.ОтчётОЗаявках</content>
   <subsystems>Заявки</subsystems>
   <subsystems>Рассылки</subsystems>
   <subsystems>Транспорт</subsystems>

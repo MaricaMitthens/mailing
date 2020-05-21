@@ -10,12 +10,20 @@
     <value>Заявки в работе</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ЗаявкиВРаботе.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ЗаявкиВРаботе.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
   <templates uuid="0b06eb88-2f06-4524-ae43-c678b6655190">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="841f30f9-04d9-455e-b1c3-22e5fdd89cfb">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>

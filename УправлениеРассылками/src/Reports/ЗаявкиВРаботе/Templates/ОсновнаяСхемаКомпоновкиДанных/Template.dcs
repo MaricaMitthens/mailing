@@ -73,18 +73,6 @@
 ГДЕ
 	ЗаявкаНаРассылку.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.ВРаботе)</query>
 	</dataSet>
-	<totalField>
-		<dataPath>Дата</dataPath>
-		<expression>Количество(Дата)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>Наименование</dataPath>
-		<expression>Количество(Наименование)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>Статус</dataPath>
-		<expression>Количество(Статус)</expression>
-	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>

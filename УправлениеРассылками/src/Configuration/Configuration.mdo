@@ -49,9 +49,11 @@
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.СтатусыЗаявок</enums>
   <enums>Enum.СтатусыОтправкиПисьма</enums>
+  <enums>Enum.ДопСтатусыРассылки</enums>
   <reports>Report.ЗаявкиВРаботе</reports>
   <reports>Report.ОтчётОбОшибках</reports>
   <reports>Report.ОтчётОбОтказах</reports>
+  <reports>Report.ОтчётОЗаявках</reports>
   <dataProcessors>DataProcessor.ОтправкаПочты</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаНеДоставленных</dataProcessors>
   <dataProcessors>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</dataProcessors>

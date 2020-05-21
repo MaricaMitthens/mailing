@@ -7,50 +7,48 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ДопРезультат</dataPath>
-			<field>ДопРезультат</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Контрагент</dataPath>
-			<field>Контрагент</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Рассылка</dataPath>
-			<field>Рассылка</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>АдресЭПКонтрагента</dataPath>
-			<field>АдресЭПКонтрагента</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ДатаИВремяОтправки</dataPath>
-			<field>ДатаИВремяОтправки</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Статус</dataPath>
 			<field>Статус</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер1</dataPath>
+			<field>Номер1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отправитель</dataPath>
+			<field>Отправитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПротоколОтправки.Рассылка,
-	ПротоколОтправки.Контрагент,
-	ПротоколОтправки.АдресЭПКонтрагента,
-	ПротоколОтправки.Статус,
-	ПротоколОтправки.ДопРезультат,
-	ПротоколОтправки.ДатаИВремяОтправки
+	ЗаявкаНаРассылку.Наименование КАК Наименование,
+	ЗаявкаНаРассылку.Номер КАК Номер,
+	ЗаявкаНаРассылку.Отправитель КАК Отправитель,
+	ЗаявкаНаРассылку.Статус КАК Статус,
+	ЗаявкаНаРассылку.Автор КАК Автор,
+	Рассылка.Номер КАК Номер1
 ИЗ
-	РегистрСведений.ПротоколОтправки КАК ПротоколОтправки
-ГДЕ
-	ПротоколОтправки.ДопРезультат = ЗНАЧЕНИЕ(Перечисление.ДопСтатусыРассылки.Отписка)</query>
+	Документ.Рассылка КАК Рассылка
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаявкаНаРассылку КАК ЗаявкаНаРассылку
+		ПО Рассылка.Заявка = ЗаявкаНаРассылку.Ссылка
+УПОРЯДОЧИТЬ ПО
+	Наименование,
+	Номер,
+	Отправитель,
+	Статус,
+	Автор,
+	Номер1</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>Количество</dataPath>
@@ -76,16 +74,13 @@
 					<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>АдресЭПКонтрагента</dcsset:field>
+					<dcsset:field>Статус</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ДатаИВремяОтправки</dcsset:field>
+					<dcsset:field>Наименование</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ДопРезультат</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Контрагент</dcsset:field>
+					<dcsset:field>Автор</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Статус</dcsset:field>
@@ -99,7 +94,7 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Рассылка</dcsset:field>
+						<dcsset:field>Статус</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 					</dcsset:item>

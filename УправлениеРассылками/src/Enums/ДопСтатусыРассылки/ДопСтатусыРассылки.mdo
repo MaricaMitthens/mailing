@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b68454f-ce51-4a4a-b820-f92b91f976a1">
+  <producedTypes>
+    <refType typeId="9e1f05a6-213c-41a7-918e-3d5e40f21d64" valueTypeId="fbe11d5d-51a8-47f2-b443-74e07528f288"/>
+    <listType typeId="a9c8235c-ca54-41c3-8eef-815d2a2a2a49" valueTypeId="4a7e4dae-09ad-495d-b0e0-7fd9434f7212"/>
+    <managerType typeId="3f80de2a-0e1b-4479-98c5-77629ada0fb9" valueTypeId="a4ac0e8c-6ed6-4cd0-ba1a-b681dfc1ef4b"/>
+  </producedTypes>
+  <name>ДопСтатусыРассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп статусы рассылки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="89f984f2-f5e6-4486-9110-d77abe365008">
+    <name>Отписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отписка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fe3f333-49a2-43fa-a9f5-3ac68e855707">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb07bc1f-fb4c-4558-b9be-cf14b595b389">
+    <name>НеверныйАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неверный адрес</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
