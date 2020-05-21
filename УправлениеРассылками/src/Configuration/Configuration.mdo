@@ -50,8 +50,8 @@
   <enums>Enum.СтатусыЗаявок</enums>
   <enums>Enum.СтатусыОтправкиПисьма</enums>
   <reports>Report.ЗаявкиВРаботе</reports>
-  <reports>Report.ОтчетОбОтказах</reports>
-  <reports>Report.ОтчетОбОшибках</reports>
+  <reports>Report.ОтчётОбОшибках</reports>
+  <reports>Report.ОтчётОбОтказах</reports>
   <dataProcessors>DataProcessor.ОтправкаПочты</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаНеДоставленных</dataProcessors>
   <dataProcessors>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</dataProcessors>

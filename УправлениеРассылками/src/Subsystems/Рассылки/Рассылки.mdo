@@ -8,7 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Role.Администратор</content>
-  <content>Report.ОтчетОбОтказах</content>
   <content>DataProcessor.ОтправкаПочты</content>
   <content>DataProcessor.ОбработкаНеДоставленных</content>
   <content>InformationRegister.Очередь</content>
@@ -18,7 +17,7 @@
   <content>DataProcessor.ПроверкаРегулярок</content>
   <content>DataProcessor.ПроверкаОтписки</content>
   <content>Report.ЗаявкиВРаботе</content>
-  <content>Report.ОтчетОбОшибках</content>
+  <content>Report.ОтчётОбОшибках</content>
   <subsystems>Заявки</subsystems>
   <subsystems>Рассылки</subsystems>
   <subsystems>Транспорт</subsystems>
