@@ -19,16 +19,16 @@
 			<field>Номер</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Номер1</dataPath>
-			<field>Номер1</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Отправитель</dataPath>
 			<field>Отправитель</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Автор</dataPath>
 			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТемаПисьма</dataPath>
+			<field>ТемаПисьма</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -37,18 +37,17 @@
 	ЗаявкаНаРассылку.Отправитель КАК Отправитель,
 	ЗаявкаНаРассылку.Статус КАК Статус,
 	ЗаявкаНаРассылку.Автор КАК Автор,
-	Рассылка.Номер КАК Номер1
+	Рассылка.ТемаПисьма
 ИЗ
 	Документ.Рассылка КАК Рассылка
-		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаявкаНаРассылку КАК ЗаявкаНаРассылку
+		ПРАВОЕ СОЕДИНЕНИЕ Документ.ЗаявкаНаРассылку КАК ЗаявкаНаРассылку
 		ПО Рассылка.Заявка = ЗаявкаНаРассылку.Ссылка
 УПОРЯДОЧИТЬ ПО
 	Наименование,
 	Номер,
 	Отправитель,
 	Статус,
-	Автор,
-	Номер1</query>
+	Автор</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>Количество</dataPath>
@@ -83,7 +82,10 @@
 					<dcsset:field>Автор</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Статус</dcsset:field>
+					<dcsset:field>ТемаПисьма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отправитель</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>

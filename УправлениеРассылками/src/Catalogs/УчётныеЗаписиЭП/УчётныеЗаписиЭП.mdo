@@ -59,6 +59,7 @@
         <length>50</length>
       </stringQualifiers>
     </type>
+    <passwordMode>true</passwordMode>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

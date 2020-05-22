@@ -8,6 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ЗаявкаНаРассылку</content>
-  <content>Report.ЗаявкиВРаботе</content>
+  <content>Enum.СтатусыЗаявок</content>
+  <content>Report.ОтчётОЗаявках</content>
   <parentSubsystem>Subsystem.Рассылки</parentSubsystem>
 </mdclass:Subsystem>

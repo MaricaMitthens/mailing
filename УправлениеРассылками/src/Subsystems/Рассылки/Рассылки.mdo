@@ -16,13 +16,10 @@
   <content>DataProcessor.ОбработкаОшибокИОтказов</content>
   <content>DataProcessor.ПроверкаРегулярок</content>
   <content>DataProcessor.ПроверкаОтписки</content>
-  <content>Report.ЗаявкиВРаботе</content>
-  <content>Report.ОтчётОбОшибках</content>
-  <content>Report.ОтчётОбОтказах</content>
-  <content>Report.ОтчётОЗаявках</content>
   <content>Task.ЗадачаОбработкаОтказов</content>
   <subsystems>Заявки</subsystems>
   <subsystems>Рассылки</subsystems>
   <subsystems>Транспорт</subsystems>
   <subsystems>Справочники</subsystems>
+  <subsystems>Отчёты</subsystems>
 </mdclass:Subsystem>

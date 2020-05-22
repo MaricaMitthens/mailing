@@ -1,0 +1,399 @@
+<?xml version="1.0" ?>
+<diagram>
+	<tab name="УправлениеРассылками" projectName="УправлениеРассылками;">
+		<entities>
+			<subsystemEntity eClass="Subsystem" uri="bm://УправлениеРассылками/Subsystem.Рассылки#/" x="304" y="211" width="200" height="183" name="Подсистема.Рассылки">
+				<entity x="0" y="0" width="0" height="0" eClass="InformationRegister" uri="bm://УправлениеРассылками/InformationRegister.ПротоколОтправки#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Report" uri="bm://УправлениеРассылками/Report.ЗаявкиВРаботе#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОтправитьПисьмаИзОчередиИПротокол#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ПроверкаОтписки#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ПроверкаРегулярок#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОбработкаОшибокИОтказов#/">
+				</entity>
+				<subsystemEntity eClass="Subsystem" uri="bm://УправлениеРассылками/Subsystem.Рассылки.Subsystem.Заявки#/" x="0" y="0" width="0" height="0" name="Подсистема.Заявки">
+					<entity x="0" y="0" width="0" height="0" eClass="Document" uri="bm://УправлениеРассылками/Document.ЗаявкаНаРассылку#/">
+					</entity>
+				</subsystemEntity>
+				<entity x="0" y="0" width="0" height="0" eClass="InformationRegister" uri="bm://УправлениеРассылками/InformationRegister.Очередь#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Task" uri="bm://УправлениеРассылками/Task.ЗадачаОбработкаОтказов#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОЗаявках#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОбОшибках#/">
+				</entity>
+				<subsystemEntity eClass="Subsystem" uri="bm://УправлениеРассылками/Subsystem.Рассылки.Subsystem.Справочники#/" x="0" y="0" width="0" height="0" name="Подсистема.Справочники">
+					<entity x="0" y="0" width="0" height="0" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.СегментыКонтрагентов#/">
+					</entity>
+					<entity x="0" y="0" width="0" height="0" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.ШаблоныПисем#/">
+					</entity>
+				</subsystemEntity>
+				<entity x="0" y="0" width="0" height="0" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОтправкаПочты#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОбОтказах#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОбработкаНеДоставленных#/">
+				</entity>
+				<subsystemEntity eClass="Subsystem" uri="bm://УправлениеРассылками/Subsystem.Рассылки.Subsystem.Рассылки#/" x="0" y="0" width="0" height="0" name="Подсистема.Рассылки">
+					<entity x="0" y="0" width="0" height="0" eClass="Document" uri="bm://УправлениеРассылками/Document.Рассылка#/">
+					</entity>
+				</subsystemEntity>
+			</subsystemEntity>
+			<subsystemEntity eClass="Subsystem" uri="bm://УправлениеРассылками/Subsystem.НСИ#/" x="64" y="224" width="200" height="157" name="Подсистема.НСИ">
+				<entity x="0" y="0" width="0" height="0" eClass="Enum" uri="bm://УправлениеРассылками/Enum.ТипыКонтактнойИнформации#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.УчётныеЗаписиЭП#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Подразделения#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Контрагенты#/">
+				</entity>
+				<entity x="0" y="0" width="0" height="0" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Пользователи#/">
+				</entity>
+			</subsystemEntity>
+		</entities>
+		<relations for="main">
+			<relation source="Подсистема.Рассылки" target="Подсистема.НСИ">
+			</relation>
+		</relations>
+	</tab>
+	<tab name="УправлениеРассылками" projectName="УправлениеРассылками;">
+		<entities>
+			<entity x="3134" y="191" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.СтатусыОтправкиПисьма#/">
+			</entity>
+			<entity x="2879" y="346" width="454" height="267" eClass="InformationRegister" uri="bm://УправлениеРассылками/InformationRegister.ПротоколОтправки#/">
+			</entity>
+			<entity x="4005" y="678" width="320" height="311" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.УчётныеЗаписиЭП#/">
+			</entity>
+			<entity x="974" y="124" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОтправитьПисьмаИзОчередиИПротокол#/">
+			</entity>
+			<entity x="5134" y="124" width="200" height="27" eClass="ScheduledJob" uri="bm://УправлениеРассылками/ScheduledJob.Рассылка#/">
+			</entity>
+			<entity x="2855" y="965" width="462" height="241" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Контрагенты#/">
+			</entity>
+			<entity x="254" y="124" width="200" height="82" eClass="Constant" uri="bm://УправлениеРассылками/Constant.Константа1#/">
+			</entity>
+			<entity x="2921" y="191" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.ДопСтатусыРассылки#/">
+			</entity>
+			<entity x="3086" y="739" width="308" height="140" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.СегментыКонтрагентов#/">
+			</entity>
+			<entity x="2237" y="321" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОбОшибках#/">
+			</entity>
+			<entity x="1214" y="124" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОтправкаПочты#/">
+			</entity>
+			<entity x="2414" y="124" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОбОтказах#/">
+			</entity>
+			<entity x="1934" y="124" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ЗаявкиВРаботе#/">
+			</entity>
+			<entity x="1454" y="124" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ПроверкаОтписки#/">
+			</entity>
+			<entity x="3420" y="151" width="200" height="161" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.ШаблоныПисем#/">
+			</entity>
+			<entity x="1694" y="124" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ПроверкаРегулярок#/">
+			</entity>
+			<entity x="734" y="124" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОбработкаОшибокИОтказов#/">
+			</entity>
+			<entity x="3984" y="315" width="393" height="211" eClass="Document" uri="bm://УправлениеРассылками/Document.ЗаявкаНаРассылку#/">
+			</entity>
+			<entity x="3571" y="1177" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.ТипыКонтактнойИнформации#/">
+			</entity>
+			<entity x="3447" y="741" width="447" height="217" eClass="InformationRegister" uri="bm://УправлениеРассылками/InformationRegister.Очередь#/">
+			</entity>
+			<entity x="2174" y="124" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОЗаявках#/">
+			</entity>
+			<entity x="4654" y="162" width="200" height="85" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Подразделения#/">
+			</entity>
+			<entity x="4514" y="318" width="417" height="111" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Пользователи#/">
+			</entity>
+			<entity x="494" y="124" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОбработкаНеДоставленных#/">
+			</entity>
+			<entity x="4050" y="168" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.СтатусыЗаявок#/">
+			</entity>
+			<entity x="3397" y="339" width="452" height="261" eClass="Document" uri="bm://УправлениеРассылками/Document.Рассылка#/">
+			</entity>
+		</entities>
+		<relations for="main">
+			<relation source="Справочник.СегментыКонтрагентов" target="Справочник.Контрагенты">
+				<pathPoint x="3167" y="784"></pathPoint>
+				<pathPoint x="3158" y="784"></pathPoint>
+				<pathPoint x="3158" y="1085"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.СегментыКонтрагентов">
+				<pathPoint x="3550" y="498"></pathPoint>
+				<pathPoint x="3493" y="641"></pathPoint>
+				<pathPoint x="3225" y="641"></pathPoint>
+				<pathPoint x="3306" y="872"></pathPoint>
+			</relation>
+			<relation source="Документ.ЗаявкаНаРассылку" target="Справочник.Пользователи">
+				<pathPoint x="4377" y="420"></pathPoint>
+				<pathPoint x="4513" y="420"></pathPoint>
+				<pathPoint x="4515" y="373"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Справочник.УчётныеЗаписиЭП">
+				<pathPoint x="3940" y="930"></pathPoint>
+				<pathPoint x="4050" y="930"></pathPoint>
+				<pathPoint x="4052" y="828"></pathPoint>
+			</relation>
+			<relation source="Справочник.Пользователи" target="Справочник.Подразделения">
+				<pathPoint x="4707" y="358"></pathPoint>
+				<pathPoint x="4739" y="358"></pathPoint>
+				<pathPoint x="4739" y="204"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Перечисление.СтатусыОтправкиПисьма">
+				<pathPoint x="3176" y="464"></pathPoint>
+				<pathPoint x="3219" y="464"></pathPoint>
+				<pathPoint x="3219" y="204"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Документ.Рассылка">
+				<pathPoint x="3701" y="952"></pathPoint>
+				<pathPoint x="3701" y="609"></pathPoint>
+				<pathPoint x="3410" y="609"></pathPoint>
+				<pathPoint x="3410" y="498"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Перечисление.СтатусыОтправкиПисьма">
+				<pathPoint x="3176" y="464"></pathPoint>
+				<pathPoint x="3219" y="464"></pathPoint>
+				<pathPoint x="3219" y="204"></pathPoint>
+			</relation>
+			<relation source="Справочник.Пользователи" target="Справочник.Подразделения">
+				<pathPoint x="4707" y="358"></pathPoint>
+				<pathPoint x="4739" y="358"></pathPoint>
+				<pathPoint x="4739" y="204"></pathPoint>
+			</relation>
+			<relation source="Справочник.Контрагенты" target="Перечисление.ТипыКонтактнойИнформации">
+				<pathPoint x="3086" y="1085"></pathPoint>
+				<pathPoint x="3086" y="1136"></pathPoint>
+				<pathPoint x="3629" y="1136"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Документ.ЗаявкаНаРассылку">
+				<pathPoint x="3847" y="498"></pathPoint>
+				<pathPoint x="3983" y="498"></pathPoint>
+				<pathPoint x="3985" y="420"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Документ.Рассылка">
+				<pathPoint x="3333" y="479"></pathPoint>
+				<pathPoint x="3394" y="479"></pathPoint>
+				<pathPoint x="3396" y="498"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.СегментыКонтрагентов">
+				<pathPoint x="3550" y="498"></pathPoint>
+				<pathPoint x="3493" y="641"></pathPoint>
+				<pathPoint x="3225" y="641"></pathPoint>
+				<pathPoint x="3306" y="872"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.ШаблоныПисем">
+				<pathPoint x="3621" y="447"></pathPoint>
+				<pathPoint x="3621" y="339"></pathPoint>
+				<pathPoint x="3621" y="231"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Справочник.Контрагенты">
+				<pathPoint x="3716" y="930"></pathPoint>
+				<pathPoint x="3670" y="1148"></pathPoint>
+				<pathPoint x="3317" y="1148"></pathPoint>
+				<pathPoint x="3317" y="1085"></pathPoint>
+			</relation>
+			<relation source="Документ.ЗаявкаНаРассылку" target="Справочник.Пользователи">
+				<pathPoint x="4377" y="420"></pathPoint>
+				<pathPoint x="4513" y="420"></pathPoint>
+				<pathPoint x="4515" y="373"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Документ.Рассылка">
+				<pathPoint x="3333" y="479"></pathPoint>
+				<pathPoint x="3394" y="479"></pathPoint>
+				<pathPoint x="3396" y="498"></pathPoint>
+			</relation>
+			<relation source="Документ.ЗаявкаНаРассылку" target="Перечисление.СтатусыЗаявок">
+				<pathPoint x="4165" y="327"></pathPoint>
+				<pathPoint x="4165" y="200"></pathPoint>
+				<pathPoint x="4135" y="200"></pathPoint>
+				<pathPoint x="4135" y="181"></pathPoint>
+			</relation>
+			<relation source="Документ.ЗаявкаНаРассылку" target="Перечисление.СтатусыЗаявок">
+				<pathPoint x="4165" y="327"></pathPoint>
+				<pathPoint x="4165" y="200"></pathPoint>
+				<pathPoint x="4135" y="200"></pathPoint>
+				<pathPoint x="4135" y="181"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Перечисление.ДопСтатусыРассылки">
+				<pathPoint x="3091" y="358"></pathPoint>
+				<pathPoint x="3091" y="204"></pathPoint>
+				<pathPoint x="3006" y="204"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Документ.Рассылка">
+				<pathPoint x="3701" y="952"></pathPoint>
+				<pathPoint x="3701" y="609"></pathPoint>
+				<pathPoint x="3410" y="609"></pathPoint>
+				<pathPoint x="3410" y="498"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Документ.ЗаявкаНаРассылку">
+				<pathPoint x="3847" y="498"></pathPoint>
+				<pathPoint x="3983" y="498"></pathPoint>
+				<pathPoint x="3985" y="420"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Справочник.Контрагенты">
+				<pathPoint x="2870" y="479"></pathPoint>
+				<pathPoint x="2870" y="788"></pathPoint>
+				<pathPoint x="2870" y="1097"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Перечисление.ДопСтатусыРассылки">
+				<pathPoint x="3091" y="358"></pathPoint>
+				<pathPoint x="3091" y="204"></pathPoint>
+				<pathPoint x="3006" y="204"></pathPoint>
+			</relation>
+			<relation source="Справочник.СегментыКонтрагентов" target="Справочник.Контрагенты">
+				<pathPoint x="3167" y="784"></pathPoint>
+				<pathPoint x="3158" y="784"></pathPoint>
+				<pathPoint x="3158" y="1085"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.УчётныеЗаписиЭП">
+				<pathPoint x="3830" y="498"></pathPoint>
+				<pathPoint x="3830" y="609"></pathPoint>
+				<pathPoint x="4150" y="580"></pathPoint>
+				<pathPoint x="4196" y="802"></pathPoint>
+			</relation>
+			<relation source="Справочник.Контрагенты" target="Перечисление.ТипыКонтактнойИнформации">
+				<pathPoint x="3086" y="1085"></pathPoint>
+				<pathPoint x="3086" y="1136"></pathPoint>
+				<pathPoint x="3629" y="1136"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Справочник.Контрагенты">
+				<pathPoint x="3716" y="930"></pathPoint>
+				<pathPoint x="3670" y="1148"></pathPoint>
+				<pathPoint x="3317" y="1148"></pathPoint>
+				<pathPoint x="3317" y="1085"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Справочник.Контрагенты">
+				<pathPoint x="2870" y="479"></pathPoint>
+				<pathPoint x="2870" y="788"></pathPoint>
+				<pathPoint x="2870" y="1097"></pathPoint>
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Справочник.УчётныеЗаписиЭП">
+				<pathPoint x="3940" y="930"></pathPoint>
+				<pathPoint x="4050" y="930"></pathPoint>
+				<pathPoint x="4052" y="828"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.УчётныеЗаписиЭП">
+				<pathPoint x="3830" y="498"></pathPoint>
+				<pathPoint x="3830" y="609"></pathPoint>
+				<pathPoint x="4150" y="580"></pathPoint>
+				<pathPoint x="4196" y="802"></pathPoint>
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.ШаблоныПисем">
+				<pathPoint x="3621" y="447"></pathPoint>
+				<pathPoint x="3621" y="339"></pathPoint>
+				<pathPoint x="3621" y="231"></pathPoint>
+			</relation>
+		</relations>
+	</tab>
+	<tab name="УправлениеРассылками" projectName="УправлениеРассылками;">
+		<entities>
+			<entity x="795" y="70" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.СтатусыОтправкиПисьма#/">
+			</entity>
+			<entity x="795" y="166" width="200" height="114" eClass="InformationRegister" uri="bm://УправлениеРассылками/InformationRegister.ПротоколОтправки#/">
+			</entity>
+			<entity x="1895" y="324" width="200" height="114" eClass="InformationRegister" uri="bm://УправлениеРассылками/InformationRegister.Очередь1#/">
+			</entity>
+			<entity x="1655" y="338" width="200" height="85" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.УчётныеЗаписиЭП#/">
+			</entity>
+			<entity x="-1365" y="41" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОтправитьПисьмаИзОчередиИПротокол#/">
+			</entity>
+			<entity x="2795" y="41" width="200" height="27" eClass="ScheduledJob" uri="bm://УправлениеРассылками/ScheduledJob.Рассылка#/">
+			</entity>
+			<entity x="1895" y="623" width="200" height="85" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Контрагенты#/">
+			</entity>
+			<entity x="-2085" y="41" width="200" height="56" eClass="Constant" uri="bm://УправлениеРассылками/Constant.Константа1#/">
+			</entity>
+			<entity x="555" y="209" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.ДопСтатусыРассылки#/">
+			</entity>
+			<entity x="1035" y="464" width="200" height="114" eClass="Task" uri="bm://УправлениеРассылками/Task.ЗадачаОбработкаОтказов#/">
+			</entity>
+			<entity x="1275" y="478" width="200" height="85" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.СегментыКонтрагентов#/">
+			</entity>
+			<entity x="315" y="41" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОбОшибках#/">
+			</entity>
+			<entity x="-1125" y="41" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОтправкаПочты#/">
+			</entity>
+			<entity x="75" y="41" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОбОтказах#/">
+			</entity>
+			<entity x="-405" y="41" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ЗаявкиВРаботе#/">
+			</entity>
+			<entity x="-885" y="41" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ПроверкаОтписки#/">
+			</entity>
+			<entity x="1035" y="41" width="200" height="85" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.ШаблоныПисем#/">
+			</entity>
+			<entity x="-645" y="41" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ПроверкаРегулярок#/">
+			</entity>
+			<entity x="-1605" y="41" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОбработкаОшибокИОтказов#/">
+			</entity>
+			<entity x="2075" y="180" width="200" height="85" eClass="Document" uri="bm://УправлениеРассылками/Document.ЗаявкаНаРассылку#/">
+			</entity>
+			<entity x="2555" y="70" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.ТипыКонтактнойИнформации#/">
+			</entity>
+			<entity x="1415" y="324" width="200" height="114" eClass="InformationRegister" uri="bm://УправлениеРассылками/InformationRegister.Очередь#/">
+			</entity>
+			<entity x="-165" y="41" width="200" height="85" eClass="Report" uri="bm://УправлениеРассылками/Report.ОтчётОЗаявках#/">
+			</entity>
+			<entity x="2315" y="41" width="200" height="85" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Подразделения#/">
+			</entity>
+			<entity x="2315" y="180" width="200" height="85" eClass="Catalog" uri="bm://УправлениеРассылками/Catalog.Пользователи#/">
+			</entity>
+			<entity x="-1845" y="41" width="200" height="85" eClass="DataProcessor" uri="bm://УправлениеРассылками/DataProcessor.ОбработкаНеДоставленных#/">
+			</entity>
+			<entity x="2075" y="70" width="200" height="27" eClass="Enum" uri="bm://УправлениеРассылками/Enum.СтатусыЗаявок#/">
+			</entity>
+			<entity x="1035" y="180" width="200" height="85" eClass="Document" uri="bm://УправлениеРассылками/Document.Рассылка#/">
+			</entity>
+		</entities>
+		<relations for="main">
+			<relation source="Справочник.Пользователи" target="Справочник.Подразделения">
+			</relation>
+			<relation source="Задача.ЗадачаОбработкаОтказов" target="Документ.Рассылка">
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Документ.Рассылка">
+			</relation>
+			<relation source="Задача.ЗадачаОбработкаОтказов" target="Справочник.Контрагенты">
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Документ.Рассылка">
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Справочник.Контрагенты">
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Перечисление.ДопСтатусыРассылки">
+			</relation>
+			<relation source="РегистрСведений.Очередь" target="Справочник.УчётныеЗаписиЭП">
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.СегментыКонтрагентов">
+			</relation>
+			<relation source="РегистрСведений.Очередь1" target="Справочник.УчётныеЗаписиЭП">
+			</relation>
+			<relation source="РегистрСведений.Очередь1" target="Документ.Рассылка">
+			</relation>
+			<relation source="Справочник.СегментыКонтрагентов" target="Справочник.Контрагенты">
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.УчётныеЗаписиЭП">
+			</relation>
+			<relation source="Задача.ЗадачаОбработкаОтказов" target="Справочник.СегментыКонтрагентов">
+			</relation>
+			<relation source="Документ.ЗаявкаНаРассылку" target="Справочник.Пользователи">
+			</relation>
+			<relation source="РегистрСведений.Очередь1" target="Справочник.Контрагенты">
+			</relation>
+			<relation source="Справочник.Контрагенты" target="Перечисление.ТипыКонтактнойИнформации">
+			</relation>
+			<relation source="Документ.Рассылка" target="Справочник.ШаблоныПисем">
+			</relation>
+			<relation source="Документ.Рассылка" target="Документ.ЗаявкаНаРассылку">
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Справочник.Контрагенты">
+			</relation>
+			<relation source="РегистрСведений.ПротоколОтправки" target="Перечисление.СтатусыОтправкиПисьма">
+			</relation>
+			<relation source="Документ.ЗаявкаНаРассылку" target="Перечисление.СтатусыЗаявок">
+			</relation>
+		</relations>
+	</tab>
+</diagram>
