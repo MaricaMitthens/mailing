@@ -8,6 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Рассылка</content>
-  <content>Report.ОтчётОбОтказах</content>
   <parentSubsystem>Subsystem.Рассылки</parentSubsystem>
 </mdclass:Subsystem>

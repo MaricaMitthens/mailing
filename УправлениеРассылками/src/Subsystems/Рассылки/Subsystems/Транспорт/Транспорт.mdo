@@ -7,5 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>InformationRegister.Очередь</content>
+  <content>Enum.СтатусыОтправкиПисьма</content>
+  <content>Enum.ДопСтатусыРассылки</content>
+  <content>InformationRegister.ПротоколОтправки</content>
   <parentSubsystem>Subsystem.Рассылки</parentSubsystem>
 </mdclass:Subsystem>

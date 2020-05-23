@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a3c9013-a617-498c-aa11-9dd1eb848776">
+  <name>ОтветственныйЗаВедениеРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственный за ведение рассылок</value>
+  </synonym>
+</mdclass:Role>

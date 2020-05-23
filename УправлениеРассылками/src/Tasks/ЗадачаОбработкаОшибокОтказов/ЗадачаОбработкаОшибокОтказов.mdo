@@ -7,14 +7,14 @@
     <listType typeId="9aac16cc-49b4-499c-9faf-1280e9b7ce52" valueTypeId="65d08ceb-91aa-459e-b433-0b9ad83c4ac7"/>
     <managerType typeId="fb34b99e-0303-4694-a4f0-bc955d201bf0" valueTypeId="40f835d9-274b-4cf7-87ff-a3927ced5d5a"/>
   </producedTypes>
-  <name>ЗадачаОбработкаОтказов</name>
+  <name>ЗадачаОбработкаОшибокОтказов</name>
   <synonym>
     <key>ru</key>
-    <value>Задача обработка отказов</value>
+    <value>Задача обработка ошибок отказов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Task.ЗадачаОбработкаОтказов.StandardAttribute.Number</inputByString>
-  <inputByString>Task.ЗадачаОбработкаОтказов.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачаОбработкаОшибокОтказов.StandardAttribute.Number</inputByString>
+  <inputByString>Task.ЗадачаОбработкаОшибокОтказов.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

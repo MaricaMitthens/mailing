@@ -34,7 +34,9 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.БазовыеПрава</roles>
-  <roles>Role.СозданиеИзменениеЗаявок</roles>
+  <roles>Role.ДобавлениеИзменениеЗаявок</roles>
+  <roles>Role.ОтветственныйЗаВедениеРассылок</roles>
+  <roles>Role.ОтветственныйЗаОбработкуРезультатовРассылки</roles>
   <commonModules>CommonModule.Рассылка</commonModules>
   <scheduledJobs>ScheduledJob.Рассылка</scheduledJobs>
   <constants>Constant.Константа1</constants>
@@ -63,5 +65,5 @@
   <informationRegisters>InformationRegister.Очередь</informationRegisters>
   <informationRegisters>InformationRegister.ПротоколОтправки</informationRegisters>
   <informationRegisters>InformationRegister.Очередь1</informationRegisters>
-  <tasks>Task.ЗадачаОбработкаОтказов</tasks>
+  <tasks>Task.ЗадачаОбработкаОшибокОтказов</tasks>
 </mdclass:Configuration>

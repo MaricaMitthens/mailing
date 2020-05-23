@@ -29,10 +29,10 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="368f9485-4006-4a34-95a8-f1380243a7c2">
-    <name>ТемаПисьма</name>
+    <name>ТемаРассылки</name>
     <synonym>
       <key>ru</key>
-      <value>Тема письма</value>
+      <value>Тема рассылки</value>
     </synonym>
     <type>
       <types>String</types>
