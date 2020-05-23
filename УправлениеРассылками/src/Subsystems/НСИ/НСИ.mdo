@@ -13,4 +13,5 @@
   <content>Catalog.Подразделения</content>
   <content>Enum.ТипыКонтактнойИнформации</content>
   <content>Role.Администратор</content>
+  <content>Role.ОтветственныйЗаОбработкуРезультатовРассылки</content>
 </mdclass:Subsystem>

@@ -17,6 +17,7 @@
   <content>DataProcessor.ПроверкаРегулярок</content>
   <content>DataProcessor.ПроверкаОтписки</content>
   <content>Task.ЗадачаОбработкаОшибокОтказов</content>
+  <content>Role.ОтветственныйЗаОбработкуРезультатовРассылки</content>
   <subsystems>Заявки</subsystems>
   <subsystems>Рассылки</subsystems>
   <subsystems>Транспорт</subsystems>
