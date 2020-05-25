@@ -37,8 +37,25 @@
   <roles>Role.ДобавлениеИзменениеЗаявок</roles>
   <roles>Role.ОтветственныйЗаВедениеРассылок</roles>
   <roles>Role.ОтветственныйЗаОбработкуРезультатовРассылки</roles>
+  <roles>Role.ЧтениеКонтрагенты</roles>
+  <roles>Role.ИзменениеКонтрагенты</roles>
+  <roles>Role.ЧтениеУчётныеЗаписиЭП</roles>
+  <roles>Role.ИзменениеУчётныеЗаписиЭП</roles>
+  <roles>Role.ЧтениеПользователи</roles>
+  <roles>Role.ИзменениеПользователи</roles>
+  <roles>Role.ЧтениеПодразделения</roles>
+  <roles>Role.ИзменениеПодразделения</roles>
+  <roles>Role.ЧтениеСегментыКонтрагентов</roles>
+  <roles>Role.ИзменениеСегментыКонтрагентов</roles>
+  <roles>Role.ЧтениеШаблоныПисем</roles>
+  <roles>Role.ИзменениеШаблоныПисем</roles>
+  <roles>Role.ЧтениеЗаявкаНаРассылку</roles>
+  <roles>Role.ИзменениеЗаявкаНаРассылку</roles>
+  <roles>Role.ЧтениеРассылка</roles>
   <commonModules>CommonModule.Рассылка</commonModules>
+  <commonModules>CommonModule.РезультатыРассылки</commonModules>
   <scheduledJobs>ScheduledJob.Рассылка</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбработкаРезультатов</scheduledJobs>
   <constants>Constant.Константа1</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.УчётныеЗаписиЭП</catalogs>

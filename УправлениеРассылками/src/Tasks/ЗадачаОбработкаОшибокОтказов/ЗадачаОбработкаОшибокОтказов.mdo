@@ -10,7 +10,7 @@
   <name>ЗадачаОбработкаОшибокОтказов</name>
   <synonym>
     <key>ru</key>
-    <value>Задача обработка ошибок отказов</value>
+    <value>Обработка ошибок и отказов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Task.ЗадачаОбработкаОшибокОтказов.StandardAttribute.Number</inputByString>
@@ -27,6 +27,7 @@
   <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
   <descriptionLength>50</descriptionLength>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <defaultListForm>Task.ЗадачаОбработкаОшибокОтказов.Form.ФормаСпискаЗадачи</defaultListForm>
   <attributes uuid="a62e243d-07fe-498b-8339-bcf2c692dfad">
     <name>Рассылка</name>
     <synonym>
@@ -63,4 +64,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="4aaa2794-325e-456a-abfd-ca9ffe749b59">
+    <name>ФормаСпискаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96c4e546-a797-4380-b791-e8e5e7e11583">
+    <name>ФормаСпискаНовыеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка новые задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Task>
