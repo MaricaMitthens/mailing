@@ -23,17 +23,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Рассылка</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
+		<name>Subsystem.Рассылки.Subsystem.Справочники</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>

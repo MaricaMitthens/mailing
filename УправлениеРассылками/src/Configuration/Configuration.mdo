@@ -52,6 +52,19 @@
   <roles>Role.ЧтениеЗаявкаНаРассылку</roles>
   <roles>Role.ИзменениеЗаявкаНаРассылку</roles>
   <roles>Role.ЧтениеРассылка</roles>
+  <roles>Role.ИзменениеРассылка</roles>
+  <roles>Role.ЧтениеОчередь</roles>
+  <roles>Role.ИзменениеОчередь</roles>
+  <roles>Role.ЧтениеПротокол</roles>
+  <roles>Role.ИзменениеПротокол</roles>
+  <roles>Role.ПодсистемаНСИ</roles>
+  <roles>Role.ПодсистемаРассылки</roles>
+  <roles>Role.ПодсистемаЗаявки</roles>
+  <roles>Role.ПодсистемаТранспорт</roles>
+  <roles>Role.ПодсистемаОтчёты</roles>
+  <roles>Role.ПодсистемаСправочники</roles>
+  <roles>Role.ИспользованиеОбработки</roles>
+  <roles>Role.ЧтениеЗадачи</roles>
   <commonModules>CommonModule.Рассылка</commonModules>
   <commonModules>CommonModule.РезультатыРассылки</commonModules>
   <scheduledJobs>ScheduledJob.Рассылка</scheduledJobs>

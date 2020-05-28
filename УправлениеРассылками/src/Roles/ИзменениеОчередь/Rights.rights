@@ -23,7 +23,11 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Рассылка</name>
+		<name>InformationRegister.Очередь</name>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -33,7 +37,23 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
 	</object>

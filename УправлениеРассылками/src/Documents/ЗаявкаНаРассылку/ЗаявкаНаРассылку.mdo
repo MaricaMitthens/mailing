@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ЗаявкаНаРассылку.Form.Заявка</defaultObjectForm>
   <defaultListForm>Document.ЗаявкаНаРассылку.Form.СписокЗаявок</defaultListForm>
+  <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="0bbdc78e-840c-42a1-b3cf-d9af14f39cea">

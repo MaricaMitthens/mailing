@@ -23,17 +23,24 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Рассылка</name>
+		<name>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</name>
 		<right>
-			<name>Read</name>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ОбработкаОшибокИОтказов</name>
 		<right>
-			<name>InputByString</name>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

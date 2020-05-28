@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83e6f0e5-2bb3-48af-8b0b-feb11f3206f6">
+  <name>ПодсистемаОтчёты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема отчёты</value>
+  </synonym>
+</mdclass:Role>

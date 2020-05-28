@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da0917df-ce51-416d-81dc-b1472071d683">
+  <name>ПодсистемаТранспорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема транспорт</value>
+  </synonym>
+</mdclass:Role>
