@@ -8,14 +8,10 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Role.Администратор</content>
-  <content>DataProcessor.ОтправкаПочты</content>
-  <content>DataProcessor.ОбработкаНеДоставленных</content>
   <content>InformationRegister.Очередь</content>
   <content>DataProcessor.ОтправитьПисьмаИзОчередиИПротокол</content>
   <content>InformationRegister.ПротоколОтправки</content>
   <content>DataProcessor.ОбработкаОшибокИОтказов</content>
-  <content>DataProcessor.ПроверкаРегулярок</content>
-  <content>DataProcessor.ПроверкаОтписки</content>
   <content>Task.ЗадачаОбработкаОшибокОтказов</content>
   <content>Role.ОтветственныйЗаОбработкуРезультатовРассылки</content>
   <subsystems>Заявки</subsystems>

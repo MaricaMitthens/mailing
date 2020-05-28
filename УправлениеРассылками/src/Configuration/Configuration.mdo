@@ -65,6 +65,8 @@
   <roles>Role.ПодсистемаСправочники</roles>
   <roles>Role.ИспользованиеОбработки</roles>
   <roles>Role.ЧтениеЗадачи</roles>
+  <roles>Role.ОтчётОЗаявках</roles>
+  <roles>Role.ОтчётыРассылка</roles>
   <commonModules>CommonModule.Рассылка</commonModules>
   <commonModules>CommonModule.РезультатыРассылки</commonModules>
   <scheduledJobs>ScheduledJob.Рассылка</scheduledJobs>
